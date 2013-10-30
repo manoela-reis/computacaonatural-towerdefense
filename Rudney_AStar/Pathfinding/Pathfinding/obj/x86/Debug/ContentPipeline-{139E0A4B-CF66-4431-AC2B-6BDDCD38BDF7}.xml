@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>clear.png</Source>
+      <Name>clear</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\convidado_oi\Downloads\Rudney_AStar\Pathfinding\Pathfinding\bin\x86\Debug\Content\clear.xnb</Output>
+      <Time>2013-09-14T16:34:42.3675567-03:00</Time>
+    </Item>
+    <Item>
+      <Source>origin.png</Source>
+      <Name>origin</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\convidado_oi\Downloads\Rudney_AStar\Pathfinding\Pathfinding\bin\x86\Debug\Content\origin.xnb</Output>
+      <Time>2013-09-14T16:50:38.9286891-03:00</Time>
+    </Item>
+    <Item>
+      <Source>blank.jpg</Source>
+      <Name>blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\convidado_oi\Downloads\Rudney_AStar\Pathfinding\Pathfinding\bin\x86\Debug\Content\blank.xnb</Output>
+      <Time>2013-09-17T22:03:18.5063044-03:00</Time>
+    </Item>
+    <Item>
+      <Source>tree.png</Source>
+      <Name>tree</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\convidado_oi\Downloads\Rudney_AStar\Pathfinding\Pathfinding\bin\x86\Debug\Content\tree.xnb</Output>
+      <Time>2013-09-14T16:03:21.6835498-03:00</Time>
+    </Item>
+    <Item>
+      <Source>player.jpg</Source>
+      <Name>player</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\convidado_oi\Downloads\Rudney_AStar\Pathfinding\Pathfinding\bin\x86\Debug\Content\player.xnb</Output>
+      <Time>2013-09-18T09:14:47.6236286-03:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{139E0A4B-CF66-4431-AC2B-6BDDCD38BDF7}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\convidado_oi\Downloads\Rudney_AStar\Pathfinding\PathfindingContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\convidado_oi\Downloads\Rudney_AStar\Pathfinding\Pathfinding\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\convidado_oi\Downloads\Rudney_AStar\Pathfinding\Pathfinding\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\convidado_oi\Downloads\Rudney_AStar\Pathfinding\Pathfinding\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2012-09-06T13:52:54-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2012-09-06T13:52:54-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2012-09-06T13:52:54-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2012-09-06T13:52:54-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2012-09-06T13:52:54-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2012-09-06T13:52:54-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-01-16T10:49:01.249614-02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

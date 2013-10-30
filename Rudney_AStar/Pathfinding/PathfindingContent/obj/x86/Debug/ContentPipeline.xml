@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>arvore.png</Source>
+      <Name>arvore</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pablo\Documents\Visual Studio 2010\Projects\Nova pasta\Pathfinding\Pathfinding\Pathfinding\bin\x86\Debug\Content\arvore.xnb</Output>
+      <Time>2013-09-14T16:03:21.6835498-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Snow.jpg</Source>
+      <Name>Snow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pablo\Documents\Visual Studio 2010\Projects\Nova pasta\Pathfinding\Pathfinding\Pathfinding\bin\x86\Debug\Content\Snow.xnb</Output>
+      <Time>2013-09-14T16:03:21.6765486-03:00</Time>
+    </Item>
+    <Item>
+      <Source>clear.png</Source>
+      <Name>clear</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pablo\Documents\Visual Studio 2010\Projects\Nova pasta\Pathfinding\Pathfinding\Pathfinding\bin\x86\Debug\Content\clear.xnb</Output>
+      <Time>2013-09-14T16:34:42.3675567-03:00</Time>
+    </Item>
+    <Item>
+      <Source>origin.png</Source>
+      <Name>origin</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Pablo\Documents\Visual Studio 2010\Projects\Nova pasta\Pathfinding\Pathfinding\Pathfinding\bin\x86\Debug\Content\origin.xnb</Output>
+      <Time>2013-09-14T16:50:38.9286891-03:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Pablo\Documents\Visual Studio 2010\Projects\Nova pasta\Pathfinding\Pathfinding\PathfindingContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Pablo\Documents\Visual Studio 2010\Projects\Nova pasta\Pathfinding\Pathfinding\Pathfinding\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Pablo\Documents\Visual Studio 2010\Projects\Nova pasta\Pathfinding\Pathfinding\PathfindingContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Pablo\Documents\Visual Studio 2010\Projects\Nova pasta\Pathfinding\Pathfinding\Pathfinding\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-04-06T12:32:49.7209238-03:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
