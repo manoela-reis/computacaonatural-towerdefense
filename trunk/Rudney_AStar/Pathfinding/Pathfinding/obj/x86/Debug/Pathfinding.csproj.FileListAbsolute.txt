@@ -1,0 +1,32 @@
+C:\Users\Pablo\Documents\Visual Studio 2010\Projects\Nova pasta\Pathfinding\Pathfinding\Pathfinding\obj\x86\Debug\Pathfinding.csprojResolveAssemblyReference.cache
+C:\Users\Pablo\Documents\Visual Studio 2010\Projects\Nova pasta\Pathfinding\Pathfinding\Pathfinding\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Pablo\Documents\Visual Studio 2010\Projects\Nova pasta\Pathfinding\Pathfinding\Pathfinding\bin\x86\Debug\Content\arvore.xnb
+C:\Users\Pablo\Documents\Visual Studio 2010\Projects\Nova pasta\Pathfinding\Pathfinding\Pathfinding\bin\x86\Debug\Content\Snow.xnb
+C:\Users\Pablo\Documents\Visual Studio 2010\Projects\Nova pasta\Pathfinding\Pathfinding\Pathfinding\bin\x86\Debug\Pathfinding.exe
+C:\Users\Pablo\Documents\Visual Studio 2010\Projects\Nova pasta\Pathfinding\Pathfinding\Pathfinding\bin\x86\Debug\Pathfinding.pdb
+C:\Users\Pablo\Documents\Visual Studio 2010\Projects\Nova pasta\Pathfinding\Pathfinding\Pathfinding\obj\x86\Debug\Pathfinding.exe
+C:\Users\Pablo\Documents\Visual Studio 2010\Projects\Nova pasta\Pathfinding\Pathfinding\Pathfinding\obj\x86\Debug\Pathfinding.pdb
+C:\Users\Pablo\Documents\Visual Studio 2010\Projects\Nova pasta\Pathfinding\Pathfinding\Pathfinding\bin\x86\Debug\Content\clear.xnb
+C:\Users\Pablo\Documents\Visual Studio 2010\Projects\Nova pasta\Pathfinding\Pathfinding\Pathfinding\bin\x86\Debug\Content\origin.xnb
+C:\Users\Aluno\Desktop\MyAStar\Pathfinding\Pathfinding\bin\x86\Debug\Content\clear.xnb
+C:\Users\Aluno\Desktop\MyAStar\Pathfinding\Pathfinding\bin\x86\Debug\Content\origin.xnb
+C:\Users\Aluno\Desktop\MyAStar\Pathfinding\Pathfinding\bin\x86\Debug\Pathfinding.exe
+C:\Users\Aluno\Desktop\MyAStar\Pathfinding\Pathfinding\bin\x86\Debug\Pathfinding.pdb
+C:\Users\Aluno\Desktop\MyAStar\Pathfinding\Pathfinding\obj\x86\Debug\Pathfinding.csprojResolveAssemblyReference.cache
+C:\Users\Aluno\Desktop\MyAStar\Pathfinding\Pathfinding\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Aluno\Desktop\MyAStar\Pathfinding\Pathfinding\obj\x86\Debug\Pathfinding.exe
+C:\Users\Aluno\Desktop\MyAStar\Pathfinding\Pathfinding\obj\x86\Debug\Pathfinding.pdb
+C:\Users\Aluno\Desktop\MyAStar\Pathfinding\Pathfinding\bin\x86\Debug\Content\blank.xnb
+C:\Users\Aluno\Desktop\MyAStar\Pathfinding\Pathfinding\bin\x86\Debug\Content\tree.xnb
+C:\Users\Aluno\Desktop\MyAStar\Pathfinding\Pathfinding\bin\x86\Debug\Content\player.xnb
+C:\Users\convidado_oi\Downloads\Rudney_AStar\Pathfinding\Pathfinding\bin\x86\Debug\Content\clear.xnb
+C:\Users\convidado_oi\Downloads\Rudney_AStar\Pathfinding\Pathfinding\bin\x86\Debug\Content\origin.xnb
+C:\Users\convidado_oi\Downloads\Rudney_AStar\Pathfinding\Pathfinding\bin\x86\Debug\Content\blank.xnb
+C:\Users\convidado_oi\Downloads\Rudney_AStar\Pathfinding\Pathfinding\bin\x86\Debug\Content\tree.xnb
+C:\Users\convidado_oi\Downloads\Rudney_AStar\Pathfinding\Pathfinding\bin\x86\Debug\Content\player.xnb
+C:\Users\convidado_oi\Downloads\Rudney_AStar\Pathfinding\Pathfinding\bin\x86\Debug\Pathfinding.exe
+C:\Users\convidado_oi\Downloads\Rudney_AStar\Pathfinding\Pathfinding\bin\x86\Debug\Pathfinding.pdb
+C:\Users\convidado_oi\Downloads\Rudney_AStar\Pathfinding\Pathfinding\obj\x86\Debug\Pathfinding.csprojResolveAssemblyReference.cache
+C:\Users\convidado_oi\Downloads\Rudney_AStar\Pathfinding\Pathfinding\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\convidado_oi\Downloads\Rudney_AStar\Pathfinding\Pathfinding\obj\x86\Debug\Pathfinding.exe
+C:\Users\convidado_oi\Downloads\Rudney_AStar\Pathfinding\Pathfinding\obj\x86\Debug\Pathfinding.pdb
