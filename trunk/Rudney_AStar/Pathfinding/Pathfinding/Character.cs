@@ -32,6 +32,8 @@ namespace Pathfinding
         Vector3 rotation;
         Vector3 scale;
 
+        private int life = 250;
+
         public Character(Game game, Vector3 scale, Vector3 rotation, Vector3 position, Texture2D texture, Camera camera, Node target)
         {
             this.scale = scale;
@@ -96,6 +98,14 @@ namespace Pathfinding
             Walk(this.target, gameTime);
 
             world = Matrix.CreateScale(scale) * Matrix.CreateFromYawPitchRoll(rotation.X, rotation.Y, rotation.Z) * Matrix.CreateTranslation(this.position);
+
+            if (this.life <= 0)
+            {
+                Game1.enemys.Remove(this);
+                return;
+            }
+
+            this.life--;
         }
 
         public void Walk(Node target, GameTime gameTime)
@@ -152,7 +162,15 @@ namespace Pathfinding
         {
             this.position = pos;
         }
+
+        public int getLife() 
+        {
+            return life;        
+        }
+
+        public void setLife(int damage) 
+        {
+            this.life -= damage;
+        }
     }
-
-
 }

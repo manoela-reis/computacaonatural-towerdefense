@@ -22,14 +22,18 @@ namespace Pathfinding
         Sort ordenation;
 
         public Camera cam;
-        
 
         public Tree[] allTrees;
 
         public List<Node> nodePath;
-      
+
+        private float timer = 0;
+        private int timerInt = 0;
+
         private AStar path;
 
+        public static List<Character> enemys;
+        private static Character[] enemysArray;
         private Character player;
 
         KeyboardManager keyboard;
@@ -51,7 +55,7 @@ namespace Pathfinding
             this.IsMouseVisible = true;
 
             cam = new Camera(this, new Vector3(6, 4, 22));
-           
+
             base.Initialize();
         }
 
@@ -62,7 +66,7 @@ namespace Pathfinding
 
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            ImageLibrary.getInstance().putImage("Tree",Content.Load<Texture2D>(@"tree"));
+            ImageLibrary.getInstance().putImage("Tree", Content.Load<Texture2D>(@"tree"));
             ImageLibrary.getInstance().putImage("Clear", Content.Load<Texture2D>(@"clear"));
             ImageLibrary.getInstance().putImage("Blank", Content.Load<Texture2D>(@"blank"));
             ImageLibrary.getInstance().putImage("Origin", Content.Load<Texture2D>(@"origin"));
@@ -77,24 +81,34 @@ namespace Pathfinding
             int x = rand.Next(3, 6);
             int y = rand.Next(3, 6);
 
-            this.path.Search(this.grid.nodes[0, 0], this.grid.nodes[x,y], ref this.grid, this, ref allTrees, ref this.nodePath);
+            this.path.Search(this.grid.nodes[0, 0], this.grid.nodes[x, y], ref this.grid, this, ref allTrees, ref this.nodePath);
             ArrangeNodes(ref this.nodePath);
 
             player = new Character(this, new Vector3(1.25f, 0, 1.25f), new Vector3(0, 90, 0), new Vector3(0, 1, 0), ImageLibrary.getInstance().getImage("Player"), cam, path.origin);
-            
-        }
-
-        
-
-        protected override void UnloadContent()
-        {
-
+            enemys = new List<Character>();
+            enemys.Add(player);
         }
 
         protected override void Update(GameTime gameTime)
         {
+            timer += (float)gameTime.ElapsedGameTime.TotalMilliseconds / 1000;
+            timerInt = (int)timer;
+
+            if (timerInt % 5 == 0)
+            {
+                Character p = new Character(this, new Vector3(1.25f, 0, 1.25f), new Vector3(0, 90, 0), new Vector3(0, 1, 0), ImageLibrary.getInstance().getImage("Player"), cam, path.origin);
+                enemys.Add(p);
+            }
+
             this.keyboard.Update();
-            this.player.Update(gameTime);
+
+            enemysArray = enemys.ToArray();
+
+            //Erro ao utilizar foreach no Update. Melhor Solução foi esta.
+            for (int i = 0; i < enemysArray.Length; i++)
+            {
+                enemysArray[i].Update(gameTime);
+            }
 
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
@@ -128,7 +142,7 @@ namespace Pathfinding
 
         protected override void Draw(GameTime gameTime)
         {
-            
+
             if (cam.boleanaaa == true)
             {
                 GraphicsDevice.Clear(Color.DarkMagenta);
@@ -139,7 +153,8 @@ namespace Pathfinding
             }
 
 
-            this.player.Draw(GraphicsDevice);
+            foreach (Character p in enemys)
+                p.Draw(GraphicsDevice);
 
             grid.Draw(GraphicsDevice);
 
@@ -147,9 +162,9 @@ namespace Pathfinding
 
             foreach (Tree currentTree in allTrees)
             {
-               currentTree.Draw(GraphicsDevice);
+                currentTree.Draw(GraphicsDevice);
             }
-            
+
             base.Draw(gameTime);
         }
 
