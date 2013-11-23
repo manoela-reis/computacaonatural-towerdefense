@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Models\spaceship.x</Source>
+      <Name>Models\spaceship</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nuno\Documents\Visual Studio 2010\Projects\Modelo3D\Modelo3D\Modelo3D\bin\x86\Debug\Content\Models\spaceship.xnb</Output>
+      <Time>2013-06-12T19:47:38.1583148-03:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\spaceship_0.xml</Key>
+        <Value>2013-06-12T19:48:26.8891021-03:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\spaceship.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\spaceship_0.xml</Output>
+      <Time>2013-06-12T19:47:38.1583148-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\BaseHelice.jpg</Source>
+      <Name>Textures\BaseHelice</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nuno\Documents\Visual Studio 2010\Projects\Modelo3D\Modelo3D\Modelo3D\bin\x86\Debug\Content\Textures\BaseHelice.xnb</Output>
+      <Time>2013-06-13T10:39:14.1034116-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Desert.jpg</Source>
+      <Name>Textures\Desert</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nuno\Documents\Visual Studio 2010\Projects\Modelo3D\Modelo3D\Modelo3D\bin\x86\Debug\Content\Textures\Desert.xnb</Output>
+      <Time>2013-06-13T10:39:14.1134121-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Helice.jpg</Source>
+      <Name>Textures\Helice</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nuno\Documents\Visual Studio 2010\Projects\Modelo3D\Modelo3D\Modelo3D\bin\x86\Debug\Content\Textures\Helice.xnb</Output>
+      <Time>2013-06-13T10:39:14.1164123-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Matinho.jpg</Source>
+      <Name>Textures\Matinho</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nuno\Documents\Visual Studio 2010\Projects\Modelo3D\Modelo3D\Modelo3D\bin\x86\Debug\Content\Textures\Matinho.xnb</Output>
+      <Time>2013-06-13T10:39:14.128413-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Parede.jpg</Source>
+      <Name>Textures\Parede</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nuno\Documents\Visual Studio 2010\Projects\Modelo3D\Modelo3D\Modelo3D\bin\x86\Debug\Content\Textures\Parede.xnb</Output>
+      <Time>2013-06-13T10:39:14.1494142-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\effect.fx</Source>
+      <Name>Effect\effect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nuno\Documents\Visual Studio 2010\Projects\Modelo3D\Modelo3D\Modelo3D\bin\x86\Debug\Content\Effect\effect.xnb</Output>
+      <Time>2013-06-13T16:44:10.6005305-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Arvore.png</Source>
+      <Name>Textures\Arvore</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nuno\Documents\Visual Studio 2010\Projects\Modelo3D\Modelo3D\Modelo3D\bin\x86\Debug\Content\Textures\Arvore.xnb</Output>
+      <Time>2013-06-13T16:50:40.7698469-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Dragon\1.x</Source>
+      <Name>Models\Dragon\1</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nuno\Documents\Visual Studio 2010\Projects\Modelo3D\Modelo3D\Modelo3D\bin\x86\Debug\Content\Models\Dragon\1.xnb</Output>
+      <Time>2013-06-19T13:10:15.1291076-03:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Dragon\1_0.xml</Key>
+        <Value>2013-06-19T13:10:52.9202691-03:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Dragon\2.x</Source>
+      <Name>Models\Dragon\2</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nuno\Documents\Visual Studio 2010\Projects\Modelo3D\Modelo3D\Modelo3D\bin\x86\Debug\Content\Models\Dragon\2.xnb</Output>
+      <Time>2013-06-19T13:10:15.1311077-03:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Dragon\2_0.xml</Key>
+        <Value>2013-06-19T13:10:53.180284-03:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Dragon\3.x</Source>
+      <Name>Models\Dragon\3</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nuno\Documents\Visual Studio 2010\Projects\Modelo3D\Modelo3D\Modelo3D\bin\x86\Debug\Content\Models\Dragon\3.xnb</Output>
+      <Time>2013-06-19T13:10:15.1341079-03:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Dragon\3_0.xml</Key>
+        <Value>2013-06-19T13:10:53.2442877-03:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Dragon\4.x</Source>
+      <Name>Models\Dragon\4</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nuno\Documents\Visual Studio 2010\Projects\Modelo3D\Modelo3D\Modelo3D\bin\x86\Debug\Content\Models\Dragon\4.xnb</Output>
+      <Time>2013-06-19T13:10:15.0991059-03:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Dragon\4_0.xml</Key>
+        <Value>2013-06-19T13:10:53.3332928-03:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Dragon\5.x</Source>
+      <Name>Models\Dragon\5</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nuno\Documents\Visual Studio 2010\Projects\Modelo3D\Modelo3D\Modelo3D\bin\x86\Debug\Content\Models\Dragon\5.xnb</Output>
+      <Time>2013-06-19T13:10:15.101106-03:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Dragon\5_0.xml</Key>
+        <Value>2013-06-19T13:10:53.3962964-03:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Dragon\6.x</Source>
+      <Name>Models\Dragon\6</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nuno\Documents\Visual Studio 2010\Projects\Modelo3D\Modelo3D\Modelo3D\bin\x86\Debug\Content\Models\Dragon\6.xnb</Output>
+      <Time>2013-06-19T13:10:15.1031061-03:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Dragon\6_0.xml</Key>
+        <Value>2013-06-19T13:10:53.4603-03:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Dragon\7.x</Source>
+      <Name>Models\Dragon\7</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nuno\Documents\Visual Studio 2010\Projects\Modelo3D\Modelo3D\Modelo3D\bin\x86\Debug\Content\Models\Dragon\7.xnb</Output>
+      <Time>2013-06-19T13:10:15.1051062-03:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Dragon\7_0.xml</Key>
+        <Value>2013-06-19T13:10:53.5213035-03:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\Dragon\8.x</Source>
+      <Name>Models\Dragon\8</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nuno\Documents\Visual Studio 2010\Projects\Modelo3D\Modelo3D\Modelo3D\bin\x86\Debug\Content\Models\Dragon\8.xnb</Output>
+      <Time>2013-06-19T13:10:15.1261074-03:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Dragon\8_0.xml</Key>
+        <Value>2013-06-19T13:10:53.5903075-03:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Textures\dragon.png</Source>
+      <Name>Textures\dragon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nuno\Documents\Visual Studio 2010\Projects\Modelo3D\Modelo3D\Modelo3D\bin\x86\Debug\Content\Textures\dragon.xnb</Output>
+      <Time>2013-06-19T13:09:50.413694-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Effect\Effect1.fx</Source>
+      <Name>Effect\Effect1</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Nuno\Documents\Visual Studio 2010\Projects\Modelo3D\Modelo3D\Modelo3D\bin\x86\Debug\Content\Effect\Effect1.xnb</Output>
+      <Time>2013-06-19T13:10:40.9755859-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Dragon\1.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Dragon\1_0.xml</Output>
+      <Time>2013-06-19T13:10:15.1291076-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Dragon\2.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Dragon\2_0.xml</Output>
+      <Time>2013-06-19T13:10:15.1311077-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Dragon\3.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Dragon\3_0.xml</Output>
+      <Time>2013-06-19T13:10:15.1341079-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Dragon\4.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Dragon\4_0.xml</Output>
+      <Time>2013-06-19T13:10:15.0991059-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Dragon\5.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Dragon\5_0.xml</Output>
+      <Time>2013-06-19T13:10:15.101106-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Dragon\6.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Dragon\6_0.xml</Output>
+      <Time>2013-06-19T13:10:15.1031061-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Dragon\7.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Dragon\7_0.xml</Output>
+      <Time>2013-06-19T13:10:15.1051062-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Dragon\8.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Dragon\8_0.xml</Output>
+      <Time>2013-06-19T13:10:15.1261074-03:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Nuno\Documents\Visual Studio 2010\Projects\Modelo3D\Modelo3D\Modelo3DContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Nuno\Documents\Visual Studio 2010\Projects\Modelo3D\Modelo3D\Modelo3D\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Nuno\Documents\Visual Studio 2010\Projects\Modelo3D\Modelo3D\Modelo3DContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Nuno\Documents\Visual Studio 2010\Projects\Modelo3D\Modelo3D\Modelo3D\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-03-13T15:28:07.1288028-03:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
