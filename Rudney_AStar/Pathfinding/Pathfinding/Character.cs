@@ -98,14 +98,6 @@ namespace Pathfinding
             Walk(this.target, gameTime);
 
             world = Matrix.CreateScale(scale) * Matrix.CreateFromYawPitchRoll(rotation.X, rotation.Y, rotation.Z) * Matrix.CreateTranslation(this.position);
-
-            if (this.life <= 0)
-            {
-                Game1.enemys.Remove(this);
-                return;
-            }
-
-            this.life--;
         }
 
         public void Walk(Node target, GameTime gameTime)
@@ -171,6 +163,9 @@ namespace Pathfinding
         public void setLife(int damage) 
         {
             this.life -= damage;
+
+            if (this.life <= 0)
+                Game1.enemys.Remove(this);
         }
     }
 }
