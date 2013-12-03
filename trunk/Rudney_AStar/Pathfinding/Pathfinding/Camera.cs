@@ -75,7 +75,7 @@ namespace Pathfinding
             MouseState mouseState = Mouse.GetState();
             if (mouseState.LeftButton == ButtonState.Pressed)
             {
-                boleanaaa = true;
+                //boleanaaa = true;
             }
         }
 

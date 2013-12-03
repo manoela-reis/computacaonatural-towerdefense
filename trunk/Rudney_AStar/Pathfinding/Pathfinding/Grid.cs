@@ -31,6 +31,8 @@ namespace Pathfinding
                     float positionX = 1 * x;
                     float positionY = 1 * y;
                     nodes[x, y] = new Node(game, new Vector3(1.25f, 0, 1.25f), new Vector3(0, 0, 0), new Vector3(positionX*2.5f, 0, positionY*2.5f),ImageLibrary.getInstance().getImage("Floor"), mainCamera);
+                    nodes[x, y].x = x;
+                    nodes[x, y].y = y;
                 }
             }
         }

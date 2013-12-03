@@ -3,3 +3,5 @@ Content\origin.xnb
 Content\blank.xnb
 Content\tree.xnb
 Content\player.xnb
+Content\ground.xnb
+Content\ground_selected.xnb
