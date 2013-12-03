@@ -40,6 +40,9 @@ namespace Pathfinding
 
         private Grid grid;
 
+        private Node activeNode;
+        public List<Tree> towers;
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -49,6 +52,7 @@ namespace Pathfinding
         protected override void Initialize()
         {
             nodePath = new List<Node>();
+            towers = new List<Tree>();
             this.keyboard = new KeyboardManager();
             this.allTrees = new Tree[0];
 
@@ -68,7 +72,8 @@ namespace Pathfinding
 
             ImageLibrary.getInstance().putImage("Tree", Content.Load<Texture2D>(@"tree"));
             ImageLibrary.getInstance().putImage("Clear", Content.Load<Texture2D>(@"clear"));
-            ImageLibrary.getInstance().putImage("Blank", Content.Load<Texture2D>(@"blank"));
+            ImageLibrary.getInstance().putImage("Floor", Content.Load<Texture2D>(@"ground"));
+            ImageLibrary.getInstance().putImage("FloorSelected", Content.Load<Texture2D>(@"ground_selected"));
             ImageLibrary.getInstance().putImage("Origin", Content.Load<Texture2D>(@"origin"));
             ImageLibrary.getInstance().putImage("Player", Content.Load<Texture2D>(@"player"));
 
@@ -87,6 +92,8 @@ namespace Pathfinding
             player = new Character(this, new Vector3(1.25f, 0, 1.25f), new Vector3(0, 90, 0), new Vector3(0, 1, 0), ImageLibrary.getInstance().getImage("Player"), cam, path.origin);
             enemys = new List<Character>();
             enemys.Add(player);
+
+            activeNode = grid.nodes[0, 0];
         }
 
         protected override void Update(GameTime gameTime)
@@ -94,10 +101,11 @@ namespace Pathfinding
             timer += (float)gameTime.ElapsedGameTime.TotalMilliseconds / 1000;
             timerInt = (int)timer;
 
-            if (timerInt % 5 == 0)
+            if (timerInt >= 5)
             {
-                Character p = new Character(this, new Vector3(1.25f, 0, 1.25f), new Vector3(0, 90, 0), new Vector3(0, 1, 0), ImageLibrary.getInstance().getImage("Player"), cam, path.origin);
-                enemys.Add(p);
+                //Character p = new Character(this, new Vector3(1.25f, 0, 1.25f), new Vector3(0, 90, 0), new Vector3(0, 1, 0), ImageLibrary.getInstance().getImage("Player"), cam, path.origin);
+                //enemys.Add(p);
+                timer = 0;
             }
 
             this.keyboard.Update();
@@ -123,8 +131,68 @@ namespace Pathfinding
                 this.path.Search(this.grid.nodes[0, 0], this.grid.nodes[x, y], ref this.grid, this, ref allTrees, ref this.nodePath);
                 ArrangeNodes(ref this.nodePath);
 
-                player.setPosition(new Vector3(0, 0.1f, 0));
+                player.setPosition(new Vector3(0, 1, 0));
                 player.target = path.origin;
+            }
+
+            if (this.keyboard.IsKeyDown(Keys.Space)) //Ação!
+            {
+                if (activeNode.state == nodeState.OPEN)
+                {
+                    towers.Add(new Tree(this, new Vector3(1, 1, 1), new Vector3(0, 0, 0), new Vector3(activeNode.x * 2.5f, 0, activeNode.y * 2.5f), cam));
+                }
+            }
+
+            if (this.keyboard.IsKeyDown(Keys.Down))
+            {
+                if (activeNode.y < 5)
+                {
+                    activeNode.ChangeTexture(ImageLibrary.getInstance().getImage("Floor"));
+                    int x = activeNode.x;
+                    int y = activeNode.y;
+
+                    activeNode = grid.nodes[x, y + 1];
+                    activeNode.ChangeTexture(ImageLibrary.getInstance().getImage("FloorSelected"));
+                }
+            }
+
+            if (this.keyboard.IsKeyDown(Keys.Up))
+            {
+                if (activeNode.y > 0)
+                {
+                    activeNode.ChangeTexture(ImageLibrary.getInstance().getImage("Floor"));
+                    int x = activeNode.x;
+                    int y = activeNode.y;
+
+                    activeNode = grid.nodes[x, y - 1];
+                    activeNode.ChangeTexture(ImageLibrary.getInstance().getImage("FloorSelected"));
+                }
+            }
+
+            if (this.keyboard.IsKeyDown(Keys.Right))
+            {
+                if (activeNode.x < 5)
+                {
+                    activeNode.ChangeTexture(ImageLibrary.getInstance().getImage("Floor"));
+                    int x = activeNode.x;
+                    int y = activeNode.y;
+
+                    activeNode = grid.nodes[x + 1, y];
+                    activeNode.ChangeTexture(ImageLibrary.getInstance().getImage("FloorSelected"));
+                }
+            }
+
+            if (this.keyboard.IsKeyDown(Keys.Left))
+            {
+                if (activeNode.x > 0)
+                {
+                    activeNode.ChangeTexture(ImageLibrary.getInstance().getImage("Floor"));
+                    int x = activeNode.x;
+                    int y = activeNode.y;
+
+                    activeNode = grid.nodes[x - 1, y];
+                    activeNode.ChangeTexture(ImageLibrary.getInstance().getImage("FloorSelected"));
+                }
             }
 
             foreach (Tree currentTree in allTrees)
@@ -163,6 +231,11 @@ namespace Pathfinding
             foreach (Tree currentTree in allTrees)
             {
                 currentTree.Draw(GraphicsDevice);
+            }
+
+            foreach (Tree tree in towers)
+            {
+                tree.Draw(GraphicsDevice);
             }
 
             base.Draw(gameTime);

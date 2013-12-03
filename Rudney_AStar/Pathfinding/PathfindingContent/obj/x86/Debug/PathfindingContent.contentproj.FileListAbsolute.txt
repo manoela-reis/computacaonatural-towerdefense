@@ -1,3 +1,4 @@
 C:\Users\Pablo\Documents\Visual Studio 2010\Projects\Nova pasta\Pathfinding\Pathfinding\PathfindingContent\obj\x86\Debug\PathfindingContent.contentprojResolveAssemblyReference.cache
 C:\Users\Aluno\Desktop\MyAStar\Pathfinding\PathfindingContent\obj\x86\Debug\PathfindingContent.contentprojResolveAssemblyReference.cache
 C:\Users\convidado_oi\Downloads\Rudney_AStar\Pathfinding\PathfindingContent\obj\x86\Debug\PathfindingContent.contentprojResolveAssemblyReference.cache
+C:\Users\Aluno\Desktop\Projetos\FABIN\Rudney_AStar\Pathfinding\PathfindingContent\obj\x86\Debug\PathfindingContent.contentprojResolveAssemblyReference.cache

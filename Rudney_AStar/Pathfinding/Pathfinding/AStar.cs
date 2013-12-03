@@ -57,7 +57,7 @@ namespace Pathfinding
             foreach (Point p in GetPoints())
             {
                 allNodes.Add(_squares[p.X,p.Y]);
-                _squares[p.X, p.Y].ChangeTexture(ImageLibrary.getInstance().getImage("Blank"));
+                _squares[p.X, p.Y].ChangeTexture(ImageLibrary.getInstance().getImage("Floor"));
             }
 
             allNodes.Remove(goal);

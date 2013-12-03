@@ -16,18 +16,20 @@ namespace Pathfinding
     {
         OPEN,
         CLOSED,
+        PATH,
         GOAL,
         ORIGIN
     }
 
     public class Node
     {
-        Matrix world;
+        public Matrix world;
 
         public Node nextNode;
         public nodeState state = nodeState.OPEN;
         public int distanceSteps = 10000;
         public bool hasPath = false;
+        public int x, y;
 
         VertexPositionTexture[] verts;
         VertexBuffer vertexBuffer;
