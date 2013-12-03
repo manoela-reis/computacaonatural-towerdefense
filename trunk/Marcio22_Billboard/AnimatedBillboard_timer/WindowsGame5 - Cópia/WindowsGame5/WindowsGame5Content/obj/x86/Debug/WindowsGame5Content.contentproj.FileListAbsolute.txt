@@ -1,0 +1,7 @@
+C:\Users\Marcio\Documents\Visual Studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5Content\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\WindowsGame5\WindowsGame5\WindowsGame5Content\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\WindowsGame5\WindowsGame5\WindowsGame5Content\obj\x86\Debug\WindowsGame5Content.contentprojResolveAssemblyReference.cache
+E:\WindowsGame5\WindowsGame5\WindowsGame5Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Brian\Desktop\WindowsGame5\WindowsGame5\WindowsGame5Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Brian\Desktop\WindowsGame5 - Cópia\WindowsGame5\WindowsGame5Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Brian\Desktop\WindowsGame5 - Cópia\WindowsGame5 - Cópia\WindowsGame5\WindowsGame5Content\obj\x86\Debug\ResolveAssemblyReference.cache
