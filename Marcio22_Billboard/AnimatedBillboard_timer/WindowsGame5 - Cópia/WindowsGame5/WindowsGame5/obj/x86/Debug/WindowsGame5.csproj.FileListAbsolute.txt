@@ -1,0 +1,58 @@
+C:\Users\Marcio\Documents\Visual Studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\WindowsGame5.exe
+C:\Users\Marcio\Documents\Visual Studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\WindowsGame5.pdb
+C:\Users\Marcio\Documents\Visual Studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Marcio\Documents\Visual Studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Marcio\Documents\Visual Studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.exe
+C:\Users\Marcio\Documents\Visual Studio 2010\Projects\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.pdb
+D:\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\WindowsGame5.exe
+D:\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\WindowsGame5.pdb
+D:\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.exe
+D:\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.pdb
+F:\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\WindowsGame5.exe
+F:\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\WindowsGame5.pdb
+F:\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.csprojResolveAssemblyReference.cache
+F:\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.exe
+F:\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.pdb
+E:\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.exe
+E:\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\WindowsGame5.exe
+E:\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\WindowsGame5.pdb
+E:\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.pdb
+E:\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\Texturas\Moinho.xnb
+E:\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\Texturas\Grama.xnb
+C:\Users\Brian\Desktop\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\Texturas\Moinho.xnb
+C:\Users\Brian\Desktop\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\Texturas\Grama.xnb
+C:\Users\Brian\Desktop\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\WindowsGame5.exe
+C:\Users\Brian\Desktop\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\WindowsGame5.pdb
+C:\Users\Brian\Desktop\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Brian\Desktop\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Brian\Desktop\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.exe
+C:\Users\Brian\Desktop\WindowsGame5\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.pdb
+C:\Users\Brian\Desktop\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\Effects\effect.xnb
+C:\Users\Brian\Desktop\WindowsGame5\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\Models\spaceship.xnb
+C:\Users\Brian\Desktop\WindowsGame5 - Cópia\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\Texturas\Moinho.xnb
+C:\Users\Brian\Desktop\WindowsGame5 - Cópia\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\Texturas\Grama.xnb
+C:\Users\Brian\Desktop\WindowsGame5 - Cópia\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\Effects\effect.xnb
+C:\Users\Brian\Desktop\WindowsGame5 - Cópia\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\Models\spaceship.xnb
+C:\Users\Brian\Desktop\WindowsGame5 - Cópia\WindowsGame5\WindowsGame5\bin\x86\Debug\WindowsGame5.exe
+C:\Users\Brian\Desktop\WindowsGame5 - Cópia\WindowsGame5\WindowsGame5\bin\x86\Debug\WindowsGame5.pdb
+C:\Users\Brian\Desktop\WindowsGame5 - Cópia\WindowsGame5\WindowsGame5\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Brian\Desktop\WindowsGame5 - Cópia\WindowsGame5\WindowsGame5\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Brian\Desktop\WindowsGame5 - Cópia\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.exe
+C:\Users\Brian\Desktop\WindowsGame5 - Cópia\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.pdb
+C:\Users\Brian\Desktop\WindowsGame5 - Cópia\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\Texturas\Arvore.xnb
+C:\Users\Brian\Desktop\WindowsGame5 - Cópia\WindowsGame5 - Cópia\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\Texturas\Moinho.xnb
+C:\Users\Brian\Desktop\WindowsGame5 - Cópia\WindowsGame5 - Cópia\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\Texturas\Grama.xnb
+C:\Users\Brian\Desktop\WindowsGame5 - Cópia\WindowsGame5 - Cópia\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\Texturas\Arvore.xnb
+C:\Users\Brian\Desktop\WindowsGame5 - Cópia\WindowsGame5 - Cópia\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\Effects\effect.xnb
+C:\Users\Brian\Desktop\WindowsGame5 - Cópia\WindowsGame5 - Cópia\WindowsGame5\WindowsGame5\bin\x86\Debug\Content\Models\spaceship.xnb
+C:\Users\Brian\Desktop\WindowsGame5 - Cópia\WindowsGame5 - Cópia\WindowsGame5\WindowsGame5\bin\x86\Debug\WindowsGame5.exe
+C:\Users\Brian\Desktop\WindowsGame5 - Cópia\WindowsGame5 - Cópia\WindowsGame5\WindowsGame5\bin\x86\Debug\WindowsGame5.pdb
+C:\Users\Brian\Desktop\WindowsGame5 - Cópia\WindowsGame5 - Cópia\WindowsGame5\WindowsGame5\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Brian\Desktop\WindowsGame5 - Cópia\WindowsGame5 - Cópia\WindowsGame5\WindowsGame5\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Brian\Desktop\WindowsGame5 - Cópia\WindowsGame5 - Cópia\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.exe
+C:\Users\Brian\Desktop\WindowsGame5 - Cópia\WindowsGame5 - Cópia\WindowsGame5\WindowsGame5\obj\x86\Debug\WindowsGame5.pdb
